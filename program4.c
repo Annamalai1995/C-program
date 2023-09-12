@@ -4,11 +4,11 @@
 void main()
 {
     char gender='\0';
-//    gender=getc(stdin);
-//     putc=(gender,stdout);
-     gender=getchar();
-    putchar(gender);
-    gender=getch();
+    //gender=getc(stdin);
+  // putc=(gender,stdout);
+    //gender=getchar();
+    //putchar(gender);
+   // gender=getch();
     gender=getche();
 
 
