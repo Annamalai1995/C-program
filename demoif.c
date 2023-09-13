@@ -27,30 +27,30 @@ int main()
     //      printf("%d isn't prime",number);
     // }
 
-    // int budget=0;
-    // printf("\nTell us your laptop budget: ");
-    // scanf("%d",&budget);
+    int budget=0;
+    printf("\nTell us your laptop budget: ");
+    scanf("%d",&budget);
 
-    // if(budget>=18000&&budget<=25000)
-    // {
-    //     printf("\nFor %d budget ACER, ASUS laptops are available",budget);
-    // }
-    // else if(budget>25000&&budget<=35000)
-    // {
-    //     printf("\nFor %d budget Lenova, ASUS, Dell laptops are available",budget);
-    // }
-    // else if(budget>35000&&budget<=50000)
-    // {
-    //     printf("\nFor %d budget HP, Dell laptops are available",budget);
-    // }
-    // else if(budget>50000)
-    // {
-    //     printf("\nFor %d budget Dell, Sony, Apple laptops are available",budget);
-    // }
-    // else
-    // {
-    //     printf("\nNo laptops are matching with %d",budget);
-    // }
+    if(budget>=18000&&budget<=25000)
+    {
+        printf("\nFor %d budget ACER, ASUS laptops are available",budget);
+    }
+    else if(budget>25000&&budget<=35000)
+    {
+        printf("\nFor %d budget Lenova, ASUS, Dell laptops are available",budget);
+    }
+    else if(budget>35000&&budget<=50000)
+    {
+        printf("\nFor %d budget HP, Dell laptops are available",budget);
+    }
+    else if(budget>50000)
+    {
+        printf("\nFor %d budget Dell, Sony, Apple laptops are available",budget);
+    }
+    else
+    {
+        printf("\nNo laptops are matching with %d",budget);
+    }
 
  
 }

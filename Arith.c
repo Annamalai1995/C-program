@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-  /*  int liter=0,kms=0;
+    int liter=0,kms=0;
     printf("Enter liter of fuel and driven kms: ");
     scanf("%d%d",&liter,&kms);
     int milage=kms/liter;
     //printf("\nThe milage is: %d",milage);
 
-    float fuel=(float)liter/kms;
-    printf("\nThe consumed fuel/km is: %10f",fuel);*/
+    float fuel=(float)kms/liter;
+    printf("\nThe consumed fuel/km is: %f",fuel);
 
-/*    int days=0,commercials=0;
+/*    int days=0,commercials=0; 
     double takeHome=0.0;
 
     printf("Tell us no of days and commercials/day: ");
