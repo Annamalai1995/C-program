@@ -2,7 +2,7 @@
 #include<stdio.h>
 void Name()
 {
-	printf("GowthamiPriya");
+	printf("Sam");
 	
 }
 void main()

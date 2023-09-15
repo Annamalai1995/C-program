@@ -8,7 +8,7 @@ void hello()
 }
 int main()
 {
-    strcpy(word,"Athik");
+    strcpy(word,"Priya");
     char skill[50]="";
     strcpy(skill,"Java");
     printf("\n Main \n");

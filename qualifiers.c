@@ -11,7 +11,7 @@ int main()
 {   
     alpha=122;
     printf("\n%c",alpha);
-    setSome();
+    setSome(); 
     printf("\n%c",alpha);
     return 0;
 }
